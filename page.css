@@ -1,0 +1,191 @@
+.cssvalidatorlogo {
+	position: absolute;
+	left:0%;
+	top:0%;
+}
+
+
+table{
+	margin-top: 30px;
+	padding: 20px;
+}
+
+td img {
+	width: 150px;
+	height: 150px;
+	background-color: #2b3d51;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*
+@font-face {
+	font-family: "Titre";
+	src: url("./hackerchaos.otf") format("OpenType");
+}
+*/
+h1 {
+	font-size: 22px;
+	margin-left: 20px;
+}
+
+
+
+
+body {
+    background-size: 100% auto;
+    color: black;
+} 
+
+    /*-----------NAV MENU BAR-----------*/
+        nav {
+          border: 1px solid #000000;
+          font-family: "Titre";
+        }
+
+        nav ul {
+          list-style-type: none;
+          margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #29235C;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        .selector {
+            border-color: #ffffff;
+            border-width: 4px;
+          border-bottom-style:solid;
+        }
+
+        nav li a {
+          display: block;
+            color: rgb(226, 226, 226);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          font-size: 20px;
+          font-family: "menu_police";
+        }
+
+        nav li a:hover:not(.deco) {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+
+        nav .deco {
+            background-color: #ffffff;
+        }
+    /*----------------------------------*/
+
+      .tg {
+        border-collapse:collapse;
+        border-spacing:0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.7);
+      }
+
+      .tg td{
+        font-family:Arial, sans-serif;
+        font-size:14px;
+        padding:10px 5px;
+        border-style:solid;
+        border-width:1px;
+        overflow:hidden;
+        word-break:normal;
+        border-color:grey;
+      }
+
+      .tg .tg-1 .tg-2 .tg-3 .tg-4 .th-5 .tg-6 .tg6 {
+        text-align:left;
+        vertical-align:top
+      }
+
+      .tg-1 {
+        width: 10px;
+      }
+
+      .tg-2 {
+        width: auto;
+      }
+
+      .tg-3 {
+        width: 200px;
+      }
+
+      .tg-4 {
+        width: 100px;
+      }
+
+      .tg-5 {
+        width: 100px;
+      }
+
+      .tg-6 {
+        width: 75px;
+      }
+
+      .tg-7 {
+        width: 75px;
+      }
+
+      .tg .tgr-1 .tgr-2 .tgr-3 .tgr-4 .th-5 .tg-6 .tg6 {
+        text-align:left;
+        vertical-align:top
+      }
+
+      .tgr-1 {
+        width: 10px;
+
+      }
+
+      .tgr-2 {
+        width: auto;
+
+      }
+
+      .tgr-3 {
+        width: 200px;
+      }
+
+      .tgr-4 {
+        animation-duration: 6s;
+        animation-name: alert;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes alert {
+        0% {
+          background-color: rgba(214, 54, 54, 0.2);
+        }
+        
+        50% {
+          background-color: rgba(214, 54, 54, 0.5);
+        }
+        100% {
+          background-color: rgba(214, 54, 54, 0.2);
+        }
+      }
+
+      .tgr-4 {
+        width: 100px;
+      }
+
+      .tgr-5 {
+        width: 100px;
+      }
+
+      .tgr-6 {
+        width: 75px;
+      }
+
+      .tgr-7 {
+        width: 75px;
+      }
+      .TACHE_ID{
+        margin-top: 10px;
+      }

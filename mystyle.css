@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Titre";
+  src: url("./hackerchaos.otf") format("OpenType");
+}
+
+.logo {
+  margin-left: 10%;
+}
+
+
+.background {
+  position: absolute;
+  z-index: -5;
+  color: rgba(0,0,0, 0.1);
+}
+
+.cadenas img {
+  position: absolute;
+  margin-top: 5px;  
+  z-index: 10;
+  width: 80px;
+  height: auto;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: bouclier;
+}
+
+.ouverture img {
+  margin-top: 5px;
+  position: absolute;
+  z-index: 5;
+  width: 80px;
+  height: auto;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: ouverture;
+}
+
+.bouclier img {
+  margin-top: 5px;
+  position: absolute;
+  z-index: 0;
+  width: 80px;
+  height: auto;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: bouclier;
+}
+
+
+@keyframes bouclier {
+  0% {transform:scale(1.00);}
+  50% {transform:scale(1.04);}
+  100% {transform:scale(1.00);}
+}
+
+@keyframes ouverture {
+  0% {
+    transform:scale(1.00);
+    transform: translate(0%, -8%);
+  }
+  50% {
+    transform:scale(1.04);
+    transform: translate(0%, 0%);
+  }
+  100% {
+    transform:scale(1.00);
+    transform: translate(0%, -8%);
+  }
+}
+
+
+body {
+  background-color: #568fb3;
+  overflow-x: hidden;
+}
+
+.page {
+  width: 90%;
+
+}
+
+nav{
+  font-family:"Titre";
+  background-color: #1a4163;
+  color: #ffffff;
+  font-size: 45px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin-top: -10px;
+  width: 100%;
+  margin-left: -10px;
+  height: 80px;
+}
+
+
+/* Systeme de recherche */
+  #myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 10%;
+    font-size: 15px;
+    padding: 2px 2px 2px 2px;
+    border: 2px solid #000000;
+    margin-bottom: 0px;
+    margin-left: 30px;
+  }
+
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 10;
+  }
+
+  #myUL li a {
+    border-bottom: solid #ffffff;
+    margin-top: 30px; 
+    background-color: rgba(12, 39, 63, 0.2);
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    display: block
+  }
+
+  #superli {
+    background-color: rgba(12, 39, 63, 0.5);
+    height: auto;
+    color: white ;
+  }
+/* ------------------------ */
